@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-color: grey;
+    overflow-y:scroll;
+}
+.container{
+    background-color: blue;
+    width: 500px;
+    margin: 50vh;
+    border-radius: 20px;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    font-size: 30px;
+    text-align: right;
+    padding:10px;
+    margin: 25px;
+    border-radius: 20px;
+}
+.values{
+    display: flex;
+    font-size: 20px;
+    width:430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+.values button{
+    padding:20px 40px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
